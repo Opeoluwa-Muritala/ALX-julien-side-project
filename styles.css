@@ -1,0 +1,77 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f8f9fa; /* Light gray background */
+  color: #333;
+}
+
+.navbar {
+  background-color: #007bff; /* Custom blue for the navbar */
+}
+
+.navbar .navbar-brand {
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+
+.card {
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); /* Custom shadow */
+  border-radius: 10px; /* Rounded corners */
+}
+
+.card-title {
+  color: #007bff; /* Primary color for job titles */
+}
+
+.card-text {
+  color: #555;
+}
+
+.btn-primary {
+  background-color: #28a745; /* Custom green for buttons */
+  border: none;
+}
+
+footer {
+  background-color: #343a40; /* Dark footer */
+  color: #fff;
+  padding: 1rem 0;
+}
+
+/* Media Queries for Responsiveness */
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .navbar-brand {
+    font-size: 2rem;
+  }
+  .card-title {
+    font-size: 1.4rem;
+  }
+  .card-text {
+    font-size: 1.1rem;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .navbar-brand {
+    font-size: 2.5rem;
+  }
+  .card-title {
+    font-size: 1.6rem;
+  }
+  .card-text {
+    font-size: 1.2rem;
+  }
+}
+
+/* Custom breakpoints for ultra-wide screens (1440px and up) */
+@media (min-width: 1440px) {
+  .container {
+    max-width: 1200px; /* Limit container width */
+  }
+  .navbar-brand {
+    font-size: 3rem;
+  }
+}
